@@ -33,7 +33,7 @@ class SpaceTile extends StatelessWidget {
                 child: Container(
                   width: 70,
                   height: 30,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: purpleColor,
                     borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(30),

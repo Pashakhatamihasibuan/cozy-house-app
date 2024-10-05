@@ -6,7 +6,7 @@ class Facilities extends StatelessWidget {
   final String imageUrl;
   final String description;
 
-  Facilities({
+  const Facilities({
     super.key,
     required this.number,
     required this.imageUrl,
@@ -22,7 +22,7 @@ class Facilities extends StatelessWidget {
           imageUrl,
           width: 32,
         ),
-        SizedBox(
+        const SizedBox(
           height: 8,
         ),
         Text.rich(
